@@ -1,0 +1,1545 @@
+{
+  "info": {
+    "description": "Cooler shelf detection dataset",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "ShelfEx",
+    "date_created": "2025-10-13T10:15:59.510Z"
+  },
+  "licenses": [],
+  "images": [
+    {
+      "id": 1,
+      "width": 1766,
+      "height": 4096,
+      "file_name": "cooler_detection_001.jpg",
+      "license": 0,
+      "flickr_url": "https://storage.googleapis.com/shelfex-cdn/shelfscan/dev/03_01_6_USER4/recognition/1755069099752_071JP..JPG",
+      "coco_url": "https://storage.googleapis.com/shelfex-cdn/shelfscan/dev/03_01_6_USER4/recognition/1755069099752_071JP..JPG",
+      "date_captured": "2025-10-13T10:15:59.510Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "cooler",
+      "supercategory": "furniture"
+    },
+    {
+      "id": 2,
+      "name": "door",
+      "supercategory": "structure"
+    },
+    {
+      "id": 3,
+      "name": "section",
+      "supercategory": "area"
+    },
+    {
+      "id": 4,
+      "name": "product",
+      "supercategory": "item"
+    },
+    {
+      "id": 5,
+      "name": "stacked_product",
+      "supercategory": "item"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        121,
+        0,
+        1492,
+        4051
+      ],
+      "area": 6044092,
+      "segmentation": [
+        [
+          121,
+          0,
+          1613,
+          0,
+          1613,
+          4051,
+          121,
+          4051
+        ]
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "door_name": "Door-1",
+        "door_visible": true
+      }
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        159,
+        11,
+        1419,
+        907
+      ],
+      "area": 1287033,
+      "segmentation": [
+        [
+          1578,
+          11,
+          1578,
+          155,
+          1523,
+          751,
+          1517,
+          812,
+          1511,
+          868,
+          1500,
+          918,
+          1300,
+          918,
+          159,
+          845,
+          159,
+          11
+        ]
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "section_position": 1,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        160.5344390869141,
+        429.782958984375,
+        141.1263275146484,
+        367.855712890625
+      ],
+      "area": 51914.12581553682,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_ORANGE_180ML_TETRA",
+        "sku_code": "shelfscan_00228",
+        "position": "1",
+        "confidence": 0.86,
+        "stack_size": 0,
+        "section_position": 1,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        300.6332702636719,
+        441.6643981933594,
+        138.2706298828125,
+        333.2106018066406
+      ],
+      "area": 46073.23979543522,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_FRUIT_APPLE_180ML_TETRA",
+        "sku_code": "shelfscan_00202",
+        "position": "2",
+        "confidence": 0.64,
+        "stack_size": 0,
+        "section_position": 1,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        442.8822021484375,
+        442.2183837890625,
+        139.661865234375,
+        318.9241943359375
+      ],
+      "area": 44541.547849327326,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_MIX_FRUIT_MAGIC_180ML_TETRA",
+        "sku_code": "shelfscan_00211",
+        "position": "3",
+        "confidence": 0.88,
+        "stack_size": 0,
+        "section_position": 1,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        583.9134521484375,
+        449.9201049804688,
+        136.67083740234375,
+        332.80590820312494
+      ],
+      "area": 45484.86216656863,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_MIX_FRUIT_MAGIC_180ML_TETRA",
+        "sku_code": "shelfscan_00211",
+        "position": "4",
+        "confidence": 0.9,
+        "stack_size": 0,
+        "section_position": 1,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        722.178466796875,
+        472.764892578125,
+        131.893798828125,
+        337.2291259765625
+      ],
+      "area": 44478.43050053716,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_GUAVA_180ML_TETRA",
+        "sku_code": "shelfscan_00219",
+        "position": "5",
+        "confidence": 0.92,
+        "stack_size": 0,
+        "section_position": 1,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 8,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        853.005126953125,
+        472.9066772460938,
+        134.72686767578125,
+        343.37402343749994
+      ],
+      "area": 46261.706618964665,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_GUAVA_180ML_TETRA",
+        "sku_code": "shelfscan_00219",
+        "position": "6",
+        "confidence": 0.93,
+        "stack_size": 0,
+        "section_position": 1,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 9,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        987.1920166015625,
+        476.2533874511719,
+        137.3031005859375,
+        345.1717834472656
+      ],
+      "area": 47393.15610208735,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_GUAVA_180ML_TETRA",
+        "sku_code": "shelfscan_00219",
+        "position": "7",
+        "confidence": 0.93,
+        "stack_size": 0,
+        "section_position": 1,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 10,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1123.085571289062,
+        479.511474609375,
+        136.53649902343795,
+        349.3145751953125
+      ],
+      "area": 47694.18915502743,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_GUAVA_180ML_TETRA",
+        "sku_code": "shelfscan_00219",
+        "position": "8",
+        "confidence": 0.93,
+        "stack_size": 0,
+        "section_position": 1,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 11,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1258.297119140625,
+        491.6723327636719,
+        137.078125,
+        331.0494689941406
+      ],
+      "area": 45379.64049196243,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_MIX_FRUIT_MAGIC_180ML_TETRA",
+        "sku_code": "shelfscan_00211",
+        "position": "9",
+        "confidence": 0.85,
+        "stack_size": 0,
+        "section_position": 1,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 12,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1392.237060546875,
+        500.0089721679688,
+        136.82849121093705,
+        348.14929199218744
+      ],
+      "area": 47636.74233944697,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_POMEGRANATE_180ML_TETRA",
+        "sku_code": "shelfscan_00232",
+        "position": "10",
+        "confidence": 0.88,
+        "stack_size": 0,
+        "section_position": 1,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 13,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        159,
+        790,
+        1352,
+        885
+      ],
+      "area": 1196520,
+      "segmentation": [
+        [
+          727,
+          790,
+          1511,
+          851,
+          1511,
+          996,
+          1445,
+          1636,
+          1433,
+          1675,
+          1139,
+          1675,
+          192,
+          1619,
+          159,
+          1613,
+          159,
+          790
+        ]
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "section_position": 2,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 14,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        187.3274230957031,
+        969.6588745117188,
+        191.38592529296878,
+        584.5300903320312
+      ],
+      "area": 111870.83219977842,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_600ML_PET",
+        "sku_code": "shelfscan_00163",
+        "position": "1",
+        "confidence": 0.96,
+        "stack_size": 0,
+        "section_position": 2,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 15,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        377.1153259277344,
+        1094.240600585938,
+        159.11843872070312,
+        445.916015625
+      ],
+      "area": 70953.46020680666,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_350ML_PET",
+        "sku_code": "shelfscan_00160",
+        "position": "2",
+        "confidence": 0.95,
+        "stack_size": 0,
+        "section_position": 2,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 16,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        523.7947998046875,
+        1100.416381835938,
+        135.11004638671875,
+        440.7912597656241
+      ],
+      "area": 59555.327553793664,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "STING_RED_250ML_PET",
+        "sku_code": "shelfscan_00180",
+        "position": "3",
+        "confidence": 0.96,
+        "stack_size": 0,
+        "section_position": 2,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 17,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        656.0595092773438,
+        1111.997680664062,
+        131.55548095703125,
+        433.3771972656259
+      ],
+      "area": 57013.14562208962,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "STING_RED_250ML_PET",
+        "sku_code": "shelfscan_00180",
+        "position": "4",
+        "confidence": 0.95,
+        "stack_size": 0,
+        "section_position": 2,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 18,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        783.1026000976562,
+        1115.729858398438,
+        142.24200439453125,
+        436.0212402343741
+      ],
+      "area": 62020.535169526804,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "MOUNTAIN_DEW_250ML_PET",
+        "sku_code": "shelfscan_00105",
+        "position": "5",
+        "confidence": 0.95,
+        "stack_size": 0,
+        "section_position": 2,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 19,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        917.3101806640625,
+        1112.005859375,
+        155.53564453124955,
+        444.51171875
+      ],
+      "area": 69137.41667747477,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "7UP_NIMBOOZ_345ML_PET",
+        "sku_code": "shelfscan_00023",
+        "position": "6",
+        "confidence": 0.95,
+        "stack_size": 0,
+        "section_position": 2,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 20,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1065.213989257812,
+        1162.93994140625,
+        141.5920410156259,
+        399.266845703125
+      ],
+      "area": 56533.00759297646,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "MIRINDA_ORANGE_250ML_PET",
+        "sku_code": "shelfscan_00086",
+        "position": "7",
+        "confidence": 0.94,
+        "stack_size": 0,
+        "section_position": 2,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 21,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1198.474487304688,
+        1174.397705078125,
+        134.18420410156205,
+        391.204345703125
+      ],
+      "area": 52493.443769246165,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "MIRINDA_ORANGE_250ML_PET",
+        "sku_code": "shelfscan_00086",
+        "position": "8",
+        "confidence": 0.94,
+        "stack_size": 0,
+        "section_position": 2,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 22,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1326.046875,
+        1250.913208007812,
+        136.49108886718795,
+        361.4177246093759
+      ],
+      "area": 49330.29876783519,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_ORANGE_180ML_PET",
+        "sku_code": "shelfscan_00224",
+        "position": "9",
+        "confidence": 0.92,
+        "stack_size": 0,
+        "section_position": 2,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 23,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        181,
+        1569,
+        1264,
+        707
+      ],
+      "area": 893648,
+      "segmentation": [
+        [
+          671,
+          1569,
+          1322,
+          1608,
+          1400,
+          1613,
+          1445,
+          1625,
+          1445,
+          1669,
+          1378,
+          2259,
+          1372,
+          2270,
+          1361,
+          2276,
+          1278,
+          2276,
+          1005,
+          2270,
+          237,
+          2248,
+          181,
+          2242,
+          181,
+          1569
+        ]
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 24,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        203.0279846191406,
+        1836.411254882812,
+        120.43737792968753,
+        333.34777832031295
+      ],
+      "area": 40147.53235958523,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_GUAVA_180ML_PET",
+        "sku_code": "shelfscan_00215",
+        "position": "1",
+        "confidence": 0.93,
+        "stack_size": 0,
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 25,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        323.9669494628906,
+        1835.901733398438,
+        118.57504272460938,
+        323.52209472656205
+      ],
+      "area": 38361.64620455722,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_GUAVA_180ML_PET",
+        "sku_code": "shelfscan_00215",
+        "position": "2",
+        "confidence": 0.94,
+        "stack_size": 0,
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 26,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        449.1506958007812,
+        1839.215698242188,
+        120.91967773437506,
+        329.54602050781205
+      ],
+      "area": 39848.598598450386,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_GUAVA_180ML_PET",
+        "sku_code": "shelfscan_00215",
+        "position": "3",
+        "confidence": 0.94,
+        "stack_size": 0,
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 27,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        565.56298828125,
+        1649.426513671875,
+        199.399658203125,
+        531.1435546875
+      ],
+      "area": 105909.84326148033,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "MOUNTAIN_DEW_750ML_PET",
+        "sku_code": "shelfscan_00109",
+        "position": "4",
+        "confidence": 0.94,
+        "stack_size": 0,
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 28,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        760.014892578125,
+        1683.169921875,
+        149.296875,
+        494.847412109375
+      ],
+      "area": 73879.17222976685,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "PEPSI_COLA_400ML_PET",
+        "sku_code": "shelfscan_00139",
+        "position": "5",
+        "confidence": 0.92,
+        "stack_size": 0,
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 29,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        911.924072265625,
+        1987.719604492188,
+        121.855712890625,
+        196.29748535156205
+      ],
+      "area": 23919.970016151612,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_125ML_TETRA",
+        "sku_code": "shelfscan_00177",
+        "position": "6",
+        "confidence": 0.94,
+        "stack_size": 2,
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 30,
+      "image_id": 1,
+      "category_id": 5,
+      "bbox": [
+        908.2570190429688,
+        1775.904296875,
+        147.53765869140625,
+        150.52099609375
+      ],
+      "area": 22207.51534757018,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "BOTTLE",
+        "sku_code": "shelfscan_00238",
+        "position": "10",
+        "confidence": 0.55,
+        "parent_product": "TROP_SLICE_125ML_TETRA",
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 31,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1029.807495117188,
+        1988.164428710938,
+        119.59228515625,
+        197.20373535156205
+      ],
+      "area": 23584.045352041667,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_125ML_TETRA",
+        "sku_code": "shelfscan_00177",
+        "position": "7",
+        "confidence": 0.95,
+        "stack_size": 0,
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 32,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1147.042114257812,
+        1993.817016601562,
+        124.6044921875,
+        196.98278808593795
+      ],
+      "area": 24544.940279126226,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_125ML_TETRA",
+        "sku_code": "shelfscan_00177",
+        "position": "8",
+        "confidence": 0.95,
+        "stack_size": 2,
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 33,
+      "image_id": 1,
+      "category_id": 5,
+      "bbox": [
+        1127.3193359375,
+        1771.179443359375,
+        117.48388671875,
+        209.93310546875
+      ],
+      "area": 24663.75718140602,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_125ML_TETRA",
+        "sku_code": "shelfscan_00177",
+        "position": "11",
+        "confidence": 0.93,
+        "parent_product": "TROP_SLICE_125ML_TETRA",
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 34,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1266.529052734375,
+        1998.186645507812,
+        121.28625488281295,
+        205.19226074218795
+      ],
+      "area": 24887.000836357623,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_125ML_TETRA",
+        "sku_code": "shelfscan_00177",
+        "position": "9",
+        "confidence": 0.95,
+        "stack_size": 2,
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 35,
+      "image_id": 1,
+      "category_id": 5,
+      "bbox": [
+        1251.998779296875,
+        1782.729370117188,
+        130.206298828125,
+        215.990234375
+      ],
+      "area": 28123.289000988007,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_125ML_TETRA",
+        "sku_code": "shelfscan_00177",
+        "position": "12",
+        "confidence": 0.94,
+        "parent_product": "TROP_SLICE_125ML_TETRA",
+        "section_position": 3,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 36,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        181,
+        2214,
+        1219,
+        529
+      ],
+      "area": 644851,
+      "segmentation": [
+        [
+          1378,
+          2214,
+          1400,
+          2242,
+          1400,
+          2276,
+          1356,
+          2699,
+          1344,
+          2743,
+          710,
+          2743,
+          215,
+          2710,
+          181,
+          2704,
+          181,
+          2214
+        ]
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "section_position": 4,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 37,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        196.6015014648438,
+        2295.192626953125,
+        117.5211791992187,
+        348.86083984375
+      ],
+      "area": 40998.537274867274,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "CREAMBELL_KESAR_BADAM_180ML_PET",
+        "sku_code": "shelfscan_00049",
+        "position": "1",
+        "confidence": 0.93,
+        "stack_size": 0,
+        "section_position": 4,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 38,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        313.246337890625,
+        2302.86083984375,
+        118.7254028320312,
+        339.90478515625
+      ],
+      "area": 40355.332542210796,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "CREAMBELL_KESAR_BADAM_180ML_PET",
+        "sku_code": "shelfscan_00049",
+        "position": "2",
+        "confidence": 0.93,
+        "stack_size": 0,
+        "section_position": 4,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 39,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        437.5892333984375,
+        2313.737060546875,
+        110.05328369140625,
+        329.98583984375
+      ],
+      "area": 36316.02524647117,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "CREAMBELL_VANILLA_180ML_PET",
+        "sku_code": "shelfscan_00051",
+        "position": "3",
+        "confidence": 0.91,
+        "stack_size": 0,
+        "section_position": 4,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 40,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        553.4338989257812,
+        2316.65234375,
+        110.61181640625,
+        329.46142578125
+      ],
+      "area": 36442.326741456985,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "CREAMBELL_VANILLA_180ML_PET",
+        "sku_code": "shelfscan_00051",
+        "position": "4",
+        "confidence": 0.93,
+        "stack_size": 0,
+        "section_position": 4,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 41,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        665.3427734375,
+        2311.146484375,
+        106.75433349609375,
+        336.61767578125
+      ],
+      "area": 35935.39562103152,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "CREAMBELL_VANILLA_180ML_PET",
+        "sku_code": "shelfscan_00051",
+        "position": "5",
+        "confidence": 0.93,
+        "stack_size": 0,
+        "section_position": 4,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 42,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        774.5079956054688,
+        2320.46533203125,
+        116.60357666015625,
+        330.9462890625
+      ],
+      "area": 38589.52098709345,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "CREAMBELL_COFFEE_180ML_PET",
+        "sku_code": "shelfscan_00047",
+        "position": "6",
+        "confidence": 0.91,
+        "stack_size": 0,
+        "section_position": 4,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 43,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        890.61865234375,
+        2310.384521484375,
+        108.83941650390625,
+        340.0791015625
+      ],
+      "area": 37014.01097923517,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "CREAMBELL_COFFEE_180ML_PET",
+        "sku_code": "shelfscan_00047",
+        "position": "7",
+        "confidence": 0.92,
+        "stack_size": 0,
+        "section_position": 4,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 44,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        999.6298828125,
+        2309.377685546875,
+        111.46691894531205,
+        344.19921875
+      ],
+      "area": 38366.82641744598,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "CREAMBELL_COFFEE_180ML_PET",
+        "sku_code": "shelfscan_00047",
+        "position": "8",
+        "confidence": 0.91,
+        "stack_size": 0,
+        "section_position": 4,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 45,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1126.732055664062,
+        2325.8427734375,
+        122.90283203125,
+        337.44091796875
+      ],
+      "area": 41472.44446158409,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "CREAMBELL_COFFEE_180ML_PET",
+        "sku_code": "shelfscan_00047",
+        "position": "9",
+        "confidence": 0.93,
+        "stack_size": 0,
+        "section_position": 4,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 46,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1248.152099609375,
+        2325.0126953125,
+        118.64270019531295,
+        346.18310546875
+      ],
+      "area": 41072.09839481131,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "CREAMBELL_COFFEE_180ML_PET",
+        "sku_code": "shelfscan_00047",
+        "position": "10",
+        "confidence": 0.9,
+        "stack_size": 0,
+        "section_position": 4,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 47,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        181,
+        2682,
+        1175,
+        774
+      ],
+      "area": 909450,
+      "segmentation": [
+        [
+          1356,
+          2682,
+          1356,
+          3138,
+          1322,
+          3405,
+          1317,
+          3417,
+          1305,
+          3428,
+          782,
+          3456,
+          677,
+          3456,
+          243,
+          3433,
+          181,
+          3428,
+          181,
+          2682
+        ]
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "section_position": 5,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 48,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        180.0346069335938,
+        2729.978271484375,
+        182.3502197265624,
+        589.74169921875
+      ],
+      "area": 107539.52843445532,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "MIRINDA_ORANGE_750ML_PET",
+        "sku_code": "shelfscan_00091",
+        "position": "1",
+        "confidence": 0.93,
+        "stack_size": 0,
+        "section_position": 5,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 49,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        355.2510681152344,
+        2774.31494140625,
+        194.94119262695312,
+        558.2802734375
+      ],
+      "area": 108831.82232400775,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "MOUNTAIN_DEW_750ML_PET",
+        "sku_code": "shelfscan_00109",
+        "position": "2",
+        "confidence": 0.95,
+        "stack_size": 0,
+        "section_position": 5,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 50,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        554.05322265625,
+        2733.3154296875,
+        178.8031005859375,
+        584.8857421875
+      ],
+      "area": 104579.38419163227,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "PEPSI_COLA_750ML_PET",
+        "sku_code": "shelfscan_00144",
+        "position": "3",
+        "confidence": 0.96,
+        "stack_size": 0,
+        "section_position": 5,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 51,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        721.990966796875,
+        2740.126953125,
+        170.13079833984375,
+        541.35400390625
+      ],
+      "area": 92100.9888690412,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "7UP_750ML_PET",
+        "sku_code": "shelfscan_00015",
+        "position": "4",
+        "confidence": 0.93,
+        "stack_size": 0,
+        "section_position": 5,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 52,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        880.990234375,
+        2737.13818359375,
+        177.76513671875,
+        559.1826171875
+      ],
+      "area": 99403.17439508438,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "7UP_750ML_PET",
+        "sku_code": "shelfscan_00015",
+        "position": "5",
+        "confidence": 0.92,
+        "stack_size": 0,
+        "section_position": 5,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 53,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1041.597045898438,
+        2748.364990234375,
+        199.236328125,
+        528.11669921875
+      ],
+      "area": 105220.0319738388,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "AQUAFINA_1L_PET",
+        "sku_code": "shelfscan_00030",
+        "position": "6",
+        "confidence": 0.95,
+        "stack_size": 0,
+        "section_position": 5,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 54,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        181,
+        3394,
+        1152,
+        529
+      ],
+      "area": 609408,
+      "segmentation": [
+        [
+          1333,
+          3394,
+          1333,
+          3483,
+          1289,
+          3840,
+          1283,
+          3873,
+          1278,
+          3884,
+          1267,
+          3890,
+          1155,
+          3895,
+          209,
+          3923,
+          181,
+          3923,
+          181,
+          3394
+        ]
+      ],
+      "iscrowd": 0,
+      "attributes": {
+        "section_position": 6,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 55,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        359.2774658203125,
+        3449.860595703125,
+        157.6611328125,
+        417.5087890625
+      ],
+      "area": 65824.90864276886,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_600ML_PET",
+        "sku_code": "shelfscan_00163",
+        "position": "1",
+        "confidence": 0.69,
+        "stack_size": 0,
+        "section_position": 6,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 56,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        510.9395141601562,
+        3446.96923828125,
+        162.9638061523438,
+        448.40869140625
+      ],
+      "area": 73074.38706335428,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_600ML_PET",
+        "sku_code": "shelfscan_00163",
+        "position": "2",
+        "confidence": 0.91,
+        "stack_size": 0,
+        "section_position": 6,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 57,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        667.673583984375,
+        3448.06640625,
+        162.93292236328125,
+        443.72314453125
+      ],
+      "area": 72297.10865870118,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_600ML_PET",
+        "sku_code": "shelfscan_00163",
+        "position": "3",
+        "confidence": 0.92,
+        "stack_size": 0,
+        "section_position": 6,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 58,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        824.9552001953125,
+        3445.42333984375,
+        154.8804931640625,
+        418.40283203125
+      ],
+      "area": 64802.436966240406,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_600ML_PET",
+        "sku_code": "shelfscan_00163",
+        "position": "4",
+        "confidence": 0.68,
+        "stack_size": 0,
+        "section_position": 6,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 59,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        971.0891723632812,
+        3440.464111328125,
+        161.8042602539067,
+        446.91748046875
+      ],
+      "area": 72313.15232178589,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_600ML_PET",
+        "sku_code": "shelfscan_00163",
+        "position": "5",
+        "confidence": 0.7,
+        "stack_size": 0,
+        "section_position": 6,
+        "door_name": "Door-1"
+      }
+    },
+    {
+      "id": 60,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1120.453491210938,
+        3442.88330078125,
+        166.3317871093741,
+        432.3818359375
+      ],
+      "area": 71918.84348511657,
+      "segmentation": [],
+      "iscrowd": 0,
+      "attributes": {
+        "product_name": "TROP_SLICE_600ML_PET",
+        "sku_code": "shelfscan_00163",
+        "position": "6",
+        "confidence": 0.54,
+        "stack_size": 0,
+        "section_position": 6,
+        "door_name": "Door-1"
+      }
+    }
+  ]
+}

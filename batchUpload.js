@@ -118,11 +118,11 @@ class RoboflowBatchSystem {
     }
 
     // ENHANCED: Create project with better duplicate detection
-    async createTodayProject() {
+    async createTodayProject(organisationName) {
         try {
             const today = new Date();
             const dateString = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
-            const projectName = `CoolerData ${dateString}`;  // "CoolerData 2025-10-14"
+            const projectName = `${organisationName}_CoolerData_${dateString}`;  // ✅ e.g. "PBL_CoolerData_2025-10-15"
             
             console.log(`🚀 Looking for today's project: "${projectName}"`);
             
@@ -207,7 +207,7 @@ class RoboflowBatchSystem {
     }
 
     // NEW: Complete workflow for JSON data
-    async runJSONBatchOperation(jsonData) {
+    async runJSONBatchOperation(jsonData,organisationName) {
         console.log('🚀 Starting JSON batch operation...\n');
         
         try {
@@ -222,7 +222,7 @@ class RoboflowBatchSystem {
             }
             
             // Step 2: Create today's project
-            const projectResult = await this.createTodayProject();
+            const projectResult = await this.createTodayProject(organisationName);
             if (!projectResult.success) {
                 throw new Error('Project creation failed: ' + projectResult.error);
             }
@@ -597,7 +597,7 @@ class RoboflowBatchSystem {
 
     async checkProjectExists(projectName) {
     try {
-        console.log(`🔍 Checking if project exists: "${projectName}"`);
+        console.log(`🔍 Checking if project exists for name: "${projectName}"`);
         
         const response = await axios.get(
         `${this.baseUrl}/${this.workspace}`,
@@ -653,11 +653,13 @@ async function runWithJSONArray() {
     );
 
     // Method 2: Use JSON array directly
- 
+    //Fetch organisationName
+
+    const organisationName = "VBL"
 
     const jsonData = require("./new.json")
 
-    const result = await batchSystem.runJSONBatchOperation(jsonData);
+    const result = await batchSystem.runJSONBatchOperation(jsonData,organisationName);
     
     if (result.success) {
         console.log('\n🎉 JSON BATCH OPERATION COMPLETED!');
